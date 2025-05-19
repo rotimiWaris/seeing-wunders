@@ -8,4 +8,5 @@ export default defineConfig({
   css: {
     postcss: "./postcss.config.js",
   },
+  base: process.env.VIRE_BASE_PATH || "/seeing-wunders",
 });
